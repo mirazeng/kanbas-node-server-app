@@ -9,4 +9,4 @@ export const updateModule = (moduleId, module) => model.updateOne({ _id: moduleI
 
 export const deleteModule = (moduleId) => model.deleteOne({ _id: moduleId });
 
-export const findModuleForCourse = (courseId) => model.find({ course: courseId });
+export const findModuleInCourse = (courseId) => model.find({ course: courseId });
